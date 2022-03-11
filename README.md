@@ -1,3 +1,8 @@
+# REMOVE
+
+- Search and replace "[ROLE-NAME]"
+- Search for "[CHANGE-ME]"
+- Search for "[IE]" and update/remove as needed
 [ROLE-NAME]
 =========
 
@@ -10,8 +15,8 @@ Any pre-requisites that may not be covered by Ansible itself or the role should 
 
 [IE]
 
-* This role leverages a custom module to scrape the version number
-    * This module requires the `beautifulsoup` pip package
+- This role leverages a custom module to scrape the version number
+    - This module requires the `beautifulsoup` pip package
 
 Role Variables
 --------------
@@ -32,7 +37,7 @@ A list of other roles hosted on Galaxy should go here, plus any details in regar
 
 [IE]
 
-* Needs the scrape-module role from `git@github.com:bashfulrobot/scrape-module.git`
+- Needs the scrape-module role from `git@github.com:bashfulrobot/scrape-module.git`
 
 This will also install the *requirements* listed above
 
@@ -89,5 +94,5 @@ An optional section for the role authors to include contact information, or a we
 
 [IE]
 
-* Bashfulrobot [Github](https://github.com/bashfulrobot)
-* Bashfulrobot [Twitter](https://twitter.com/bashfulrobot)
+- Bashfulrobot [Github](https://github.com/bashfulrobot)
+- Bashfulrobot [Twitter](https://twitter.com/bashfulrobot)
