@@ -1,0 +1,20 @@
+galaxy_info:
+  author: Dustin Krysak
+  description: "[CHANGE-ME]"
+  company: ""
+  issue_tracker_url: https://github.com/bashfulrobot/[ROLE-NAME]/issues
+  license: MIT
+
+  min_ansible_version: 2.1
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+  galaxy_tags:
+    - Ubuntu
+    - [CHANGE-ME]
+
+dependencies:
+  []
+  # List your role dependencies here, one per line. Be sure to remove the '[]' above,
+  # if you add dependencies to this list.
