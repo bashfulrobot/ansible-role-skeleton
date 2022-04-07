@@ -52,10 +52,10 @@ roles:
   # - name: hurricanehrndz.rustup
 
   # Personal roles on GitHub
-  - src: git+ssh://git@github.com/bashfulrobot/scrape-module.git
+  - src: https://github.com/bashfulrobot/scrape-module.git
     scm: git
     version: main
-  - src: git+ssh://git@github.com/bashfulrobot/ncspot.git
+  - src: https://git@github.com/bashfulrobot/ncspot.git
     scm: git
     version: main
 
@@ -76,6 +76,14 @@ collections:
     - scrape-module
     - ncspot
 
+```
+
+### How to Run
+
+```shell
+sudo apt install ansible -y
+ansible-galaxy install -r requirements.yaml
+ansible-playbook --ask-become-pass --connection=local playbook.yaml
 ```
 
 ## License
